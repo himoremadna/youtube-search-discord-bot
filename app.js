@@ -20,8 +20,7 @@ client.on('message', msg => {
   if(msg.content === ('.youtube')){
     let specifyEmbed = new Discord.RichEmbed()
 			.setColor('#ff0000')
-			.setTitle(":raised_back_of_hand: Please specify a search query!")
-			.setFooter('TheRoyalFamily', 'https://cdn.discordapp.com/icons/531557877865775123/0d134212ba873c073c1c258cb16d68cb.png?size=128');
+			.setTitle(":raised_back_of_hand: Please specify a search query!");
 		return msg.channel.send(specifyEmbed);
   }
   if(!msg.content.startsWith('.youtube')) return;
@@ -42,8 +41,7 @@ client.on('message', msg => {
       .addField(`[2] ${r2_data["title"]}`, `:eye: ${r2_data["views"]}.`, false)
       .addField(`[3] ${r3_data["title"]}`, `:eye: ${r3_data["views"]}.`, false)
       .addField(`[4] ${r4_data["title"]}`, `:eye: ${r4_data["views"]}.`, false)
-      .addField(`[5] ${r5_data["title"]}`, `:eye: ${r5_data["views"]}.`, false)
-      .setFooter('TheRoyalFamily', 'https://cdn.discordapp.com/icons/531557877865775123/0d134212ba873c073c1c258cb16d68cb.png?size=128');
+      .addField(`[5] ${r5_data["title"]}`, `:eye: ${r5_data["views"]}.`, false);
     msg.channel.send(resultsEmbed);
     isListening = true;
   })
