@@ -1,0 +1,28 @@
+{
+  "name": "youtubesearchbot",
+  "version": "1.0.0",
+  "description": "A Discord bot that takes a search query and returns the 5 first results links.",
+  "main": "app.js",
+  "scripts": {
+    "test": ".youtube"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xHimoDz/youtube-search-discord-bot.git"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "youtube",
+    "search",
+    "query",
+    "result",
+    "video"
+  ],
+  "author": "Ibrahim Remadna",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/himoremadna/youtube-search-discord-bot/issues"
+  },
+  "homepage": "https://github.com/himoremadna/youtube-search-discord-bot"
+}
